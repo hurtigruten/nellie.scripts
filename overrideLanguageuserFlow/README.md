@@ -2,7 +2,7 @@
 
 ## Sign up and sign in
 
-The default values in the contries dropdown in the Azure provided sign up / sign in pages is the country name, but the Azure Function calling PG on sign up expcts values that are two digit ISO codes.
+The default values in the countries dropdown in the Azure provided sign up / sign in pages is the country name, but the Azure Function calling PG on sign up expcts values that are two digit ISO codes.
 
 This becomes more necessary as we support different locales as PG should not need to handle different translated country names.
 
@@ -42,6 +42,8 @@ Note also that the `Override` key is set to `true`.
 
 The updated json file should be uploaded to Azure AD B2C as an override for the given locale.
 
+If the script cannot find the ISO code for a given country it will set the value to "MANUAL UPDATE" and you will need to hunt down the ISO code and replace it manually in the json file.
+
 The script should be run like so:
 
 ```
@@ -53,3 +55,5 @@ node overrideLanguageUserFlow.js <path of downloaded default json config> <suppo
 ```
 
 Note that this script relies on [node-i18n-iso-countries](https://github.com/michaelwittig/node-i18n-iso-countries) and a supported country list can be found here.
+
+See examples of outpul files for various locales in `./generatedUserFlowFiles`
