@@ -1,0 +1,1014 @@
+{
+  "LocalizedStrings": [
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "UserId",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Username"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "UserId",
+      "StringId": "PatternHelpText",
+      "Override": false,
+      "Value": "The username you have provided is not valid. It must begin with an alphabetical character or number, and can only contain alphanumeric characters and the following symbols: _ -"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "UserId",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Username used for signing in."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "country",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Country/Region"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "country",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "The country/region in which you are located."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "email",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Email Address"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "email",
+      "StringId": "PatternHelpText",
+      "Override": false,
+      "Value": "Please enter a valid email address."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "email",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Email address that can be used to contact you."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "emailVerificationCode",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Verification Code"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "emailVerificationCode",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Verification code received in the email."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "extension_TermsAndConditions",
+      "StringId": "DisplayName",
+      "Override": true,
+      "Value": "Terms And Conditions"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "extension_TermsAndConditions",
+      "StringId": "UserHelpText",
+      "Override": true,
+      "Value": ""
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "givenName",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Given Name"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "givenName",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Your given name (also known as first name)."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "newPassword",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "New Password"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "newPassword",
+      "StringId": "PatternHelpText",
+      "Override": false,
+      "Value": "8-16 characters, containing 3 out of 4 of the following: Lowercase characters, uppercase characters, digits (0-9), and one or more of the following symbols: @ # $ % ^ & * - _ + = [ ] { } | \\ : ' , ? / ` ~ \" ( ) ; ."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "newPassword",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Enter new password"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "reenterPassword",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Confirm New Password"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "reenterPassword",
+      "StringId": "PatternHelpText",
+      "Override": false,
+      "Value": "8-16 characters, containing 3 out of 4 of the following: Lowercase characters, uppercase characters, digits (0-9), and one or more of the following symbols: @ # $ % ^ & * - _ + = [ ] { } | \\ : ' , ? / ` ~ \" ( ) ; ."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "reenterPassword",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Confirm new password"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "surname",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Surname"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "surname",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Your surname (also known as family name or last name)."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "but_change_claims",
+      "Override": false,
+      "Value": "Change e-mail"
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "but_send_code",
+      "Override": false,
+      "Value": "Send verification code"
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "but_send_new_code",
+      "Override": false,
+      "Value": "Send new code"
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "but_verify_code",
+      "Override": false,
+      "Value": "Verify code"
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "failure_send_code_msg",
+      "Override": false,
+      "Value": "We are having trouble verifying your email address. Please enter a valid email address and try again."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "failure_verify_code_msg",
+      "Override": false,
+      "Value": "We are having trouble verifying your email address. Please try again."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "intro_msg",
+      "Override": false,
+      "Value": "Verification is necessary. Please click Send button."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "success_send_code_msg",
+      "Override": false,
+      "Value": "Verification code has been sent to your inbox. Please copy it to the input box below."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "success_verify_code_msg",
+      "Override": false,
+      "Value": "E-mail address verified. You can continue now."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "DefaultUserMessageIfRequestFailed",
+      "Override": false,
+      "Value": "There was a problem processing your request. Please try again."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "ServiceThrottled",
+      "Override": false,
+      "Value": "There are too many requests at this moment. Please wait for some time and try again."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageForInvalidClaimValue",
+      "Override": false,
+      "Value": "An invalid value was presented for a property"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfChallengeExpired",
+      "Override": false,
+      "Value": "That code is expired. Please request a new code."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfCircuitOpen",
+      "Override": false,
+      "Value": "There was a problem processing your request. Please try again."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfClaimNotVerified",
+      "Override": false,
+      "Value": "Claim not verified: {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfClaimsPrincipalAlreadyExists",
+      "Override": false,
+      "Value": "A user with the specified ID already exists. Please choose a different one."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfDnsResolutionFailed",
+      "Override": false,
+      "Value": "There was a problem processing your request. Please try again."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfIncorrectPattern",
+      "Override": false,
+      "Value": "Incorrect pattern for: {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfInternalError",
+      "Override": false,
+      "Value": "We are having trouble verifying your email address. Please enter a valid email address and try again."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfInvalidInput",
+      "Override": false,
+      "Value": "{0} has invalid input."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfMissingRequiredElement",
+      "Override": false,
+      "Value": "Missing required element: {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfRequestTimeout",
+      "Override": false,
+      "Value": "There was a problem processing your request. Please try again."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfThrottled",
+      "Override": false,
+      "Value": "There have been too many requests to verify this email address. Please wait a while, then try again."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfValidationError",
+      "Override": false,
+      "Value": "Error in validation by: {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfVerificationFailedNoRetry",
+      "Override": false,
+      "Value": "You've made too many incorrect attempts. Please try again later."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfVerificationFailedRetryAllowed",
+      "Override": false,
+      "Value": "That code is incorrect. Please try again."
+    },
+    {
+      "ElementType": "InputValidation",
+      "ElementId": "CustomPassword",
+      "StringId": "CharacterClasses",
+      "Override": false,
+      "Value": "Your password must have at least {0} of the following:"
+    },
+    {
+      "ElementType": "InputValidation",
+      "ElementId": "CustomPassword",
+      "StringId": "CharacterClassesAll",
+      "Override": false,
+      "Value": "Your password must have all of the following:"
+    },
+    {
+      "ElementType": "InputValidation",
+      "ElementId": "StrongPassword",
+      "StringId": "CharacterClasses",
+      "Override": false,
+      "Value": "Your password must have at least {0} of the following:"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "AllowedAADCharacters",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "An invalid character was provided."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "DateRange",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "The date must be between {0} and {1}."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "DateRangeBetween1905AndToday",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "The date must be between 01-01-1905 and today."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "DisallowedWhitespace",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "The password must not begin or end with a whitespace character."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "ExactLength",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "The password must be exactly {0} characters."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "IsLengthBetween8And64",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "The password must be between 8 and 64 characters."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "LengthRange",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "The password must be between {0} and {1} characters."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "Lowercase",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "a lowercase letter"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "Number",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "a number"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "PIN",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "The password must use only numbers."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "Symbol",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "a symbol"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "Uppercase",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "an uppercase letter"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "internationalOrNationalPhoneNumber",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "The value entered needs to be a phone number."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_message",
+      "Override": false,
+      "Value": "Are you sure that you want to cancel entering your details?"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_no",
+      "Override": false,
+      "Value": "No"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_title",
+      "Override": false,
+      "Value": "Cancel Entering Your Details"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_yes",
+      "Override": false,
+      "Value": "Yes"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "button_cancel",
+      "Override": false,
+      "Value": "Cancel"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "button_continue",
+      "Override": false,
+      "Value": "Create"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "cancel_message",
+      "Override": false,
+      "Value": "The user has cancelled entering self-asserted information"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "day",
+      "Override": false,
+      "Value": "Day"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_link_1_text",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_link_1_url",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_link_2_text",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_link_2_url",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_msg_intro",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_fieldIncorrect",
+      "Override": false,
+      "Value": "One or more fields are filled out incorrectly. Please check your entries and try again."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_passwordEntryMismatch",
+      "Override": false,
+      "Value": "The password entry fields do not match. Please enter the same password in both fields and try again."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_requiredFieldMissing",
+      "Override": false,
+      "Value": "A required field is missing. Please fill out all required fields and try again."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "heading",
+      "Override": false,
+      "Value": "Sign up"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "helplink_text",
+      "Override": false,
+      "Value": "What is this?"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "initial_intro",
+      "Override": false,
+      "Value": "Please provide the following details."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "month",
+      "Override": false,
+      "Value": "Month"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "months",
+      "Override": false,
+      "Value": "January, February, March, April, May, June, July, August, September, October, November, December"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "preloader_alt",
+      "Override": false,
+      "Value": "Please wait"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "required_field",
+      "Override": false,
+      "Value": "This information is required."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_default",
+      "Override": false,
+      "Value": "Default"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_edit",
+      "Override": false,
+      "Value": "Change e-mail"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_resend",
+      "Override": false,
+      "Value": "Send new code"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_send",
+      "Override": false,
+      "Value": "Send verification code"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_verify",
+      "Override": false,
+      "Value": "Verify code"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_code_expired",
+      "Override": false,
+      "Value": "That code is expired. Please request a new code."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_no_retry",
+      "Override": false,
+      "Value": "You've made too many incorrect attempts. Please try again later."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_retry",
+      "Override": false,
+      "Value": "That code is incorrect. Please try again."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_server",
+      "Override": false,
+      "Value": "We are having trouble verifying your email address. Please enter a valid email address and try again."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_throttled",
+      "Override": false,
+      "Value": "There have been too many requests to verify this email address. Please wait a while, then try again."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_incorrect_format",
+      "Override": false,
+      "Value": "Incorrect format."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_info_msg",
+      "Override": false,
+      "Value": "Verification code has been sent to your inbox. Please copy it to the input box below."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_input",
+      "Override": false,
+      "Value": "Verification code"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_intro_msg",
+      "Override": false,
+      "Value": "Verification is necessary. Please click Send button."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_sent",
+      "Override": false,
+      "Value": "Verification code has been sent to:"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_success_msg",
+      "Override": false,
+      "Value": "E-mail address verified. You can now continue."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "verifying_blurb",
+      "Override": false,
+      "Value": "Please wait while we process your information."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "year",
+      "Override": false,
+      "Value": "Year"
+    }
+  ],
+  "LocalizedCollections": [
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "country",
+      "TargetCollection": "Restriction",
+      "Override": true,
+      "Items": [
+        { "Name": "Afghanistan", "Value": "AF" },
+        { "Name": "Åland Islands", "Value": "AX" },
+        { "Name": "Albania", "Value": "AL" },
+        { "Name": "Algeria", "Value": "DZ" },
+        { "Name": "American Samoa", "Value": "AS" },
+        { "Name": "Andorra", "Value": "AD" },
+        { "Name": "Angola", "Value": "AO" },
+        { "Name": "Anguilla", "Value": "AI" },
+        { "Name": "Antarctica", "Value": "AQ" },
+        { "Name": "Antigua and Barbuda", "Value": "AG" },
+        { "Name": "Argentina", "Value": "AR" },
+        { "Name": "Armenia", "Value": "AM" },
+        { "Name": "Aruba", "Value": "AW" },
+        { "Name": "Australia", "Value": "AU" },
+        { "Name": "Austria", "Value": "AT" },
+        { "Name": "Azerbaijan", "Value": "AZ" },
+        { "Name": "Bahamas", "Value": "BS" },
+        { "Name": "Bahrain", "Value": "BH" },
+        { "Name": "Bangladesh", "Value": "BD" },
+        { "Name": "Barbados", "Value": "BB" },
+        { "Name": "Belarus", "Value": "BY" },
+        { "Name": "Belgium", "Value": "BE" },
+        { "Name": "Belize", "Value": "BZ" },
+        { "Name": "Benin", "Value": "BJ" },
+        { "Name": "Bermuda", "Value": "BM" },
+        { "Name": "Bhutan", "Value": "BT" },
+        { "Name": "Bolivia", "Value": "BO" },
+        { "Name": "Bonaire", "Value": "BQ" },
+        { "Name": "Bosnia and Herzegovina", "Value": "BA" },
+        { "Name": "Botswana", "Value": "BW" },
+        { "Name": "Bouvet Island", "Value": "BV" },
+        { "Name": "Brazil", "Value": "BR" },
+        { "Name": "British Indian Ocean Territory", "Value": "IO" },
+        { "Name": "British Virgin Islands", "Value": "VG" },
+        { "Name": "Brunei", "Value": "BN" },
+        { "Name": "Bulgaria", "Value": "BG" },
+        { "Name": "Burkina Faso", "Value": "BF" },
+        { "Name": "Burundi", "Value": "BI" },
+        { "Name": "Cabo Verde", "Value": "CV" },
+        { "Name": "Cambodia", "Value": "KH" },
+        { "Name": "Cameroon", "Value": "CM" },
+        { "Name": "Canada", "Value": "CA" },
+        { "Name": "Cayman Islands", "Value": "KY" },
+        { "Name": "Central African Republic", "Value": "CF" },
+        { "Name": "Chad", "Value": "TD" },
+        { "Name": "Chile", "Value": "CL" },
+        { "Name": "China", "Value": "CN" },
+        { "Name": "Christmas Island", "Value": "CX" },
+        { "Name": "Cocos (Keeling) Islands", "Value": "CC" },
+        { "Name": "Colombia", "Value": "CO" },
+        { "Name": "Comoros", "Value": "KM" },
+        { "Name": "Congo", "Value": "CG" },
+        { "Name": "Congo (DRC)", "Value": "CD" },
+        { "Name": "Cook Islands", "Value": "CK" },
+        { "Name": "Costa Rica", "Value": "CR" },
+        { "Name": "Côte d’Ivoire", "Value": "CI" },
+        { "Name": "Croatia", "Value": "HR" },
+        { "Name": "Cuba", "Value": "CU" },
+        { "Name": "Curaçao", "Value": "CW" },
+        { "Name": "Cyprus", "Value": "CY" },
+        { "Name": "Czechia", "Value": "CZ" },
+        { "Name": "Denmark", "Value": "DK" },
+        { "Name": "Djibouti", "Value": "DJ" },
+        { "Name": "Dominica", "Value": "DM" },
+        { "Name": "Dominican Republic", "Value": "DO" },
+        { "Name": "Ecuador", "Value": "EC" },
+        { "Name": "Egypt", "Value": "EG" },
+        { "Name": "El Salvador", "Value": "SV" },
+        { "Name": "Equatorial Guinea", "Value": "GQ" },
+        { "Name": "Eritrea", "Value": "ER" },
+        { "Name": "Estonia", "Value": "EE" },
+        { "Name": "Eswatini", "Value": "SZ" },
+        { "Name": "Ethiopia", "Value": "ET" },
+        { "Name": "Falkland Islands", "Value": "FK" },
+        { "Name": "Faroe Islands", "Value": "FO" },
+        { "Name": "Fiji", "Value": "FJ" },
+        { "Name": "Finland", "Value": "FI" },
+        { "Name": "France", "Value": "FR" },
+        { "Name": "French Guiana", "Value": "GF" },
+        { "Name": "French Polynesia", "Value": "PF" },
+        { "Name": "French Southern Territories", "Value": "TF" },
+        { "Name": "Gabon", "Value": "GA" },
+        { "Name": "Gambia", "Value": "GM" },
+        { "Name": "Georgia", "Value": "GE" },
+        { "Name": "Germany", "Value": "DE" },
+        { "Name": "Ghana", "Value": "GH" },
+        { "Name": "Gibraltar", "Value": "GI" },
+        { "Name": "Greece", "Value": "GR" },
+        { "Name": "Greenland", "Value": "GL" },
+        { "Name": "Grenada", "Value": "GD" },
+        { "Name": "Guadeloupe", "Value": "GP" },
+        { "Name": "Guam", "Value": "GU" },
+        { "Name": "Guatemala", "Value": "GT" },
+        { "Name": "Guernsey", "Value": "GG" },
+        { "Name": "Guinea", "Value": "GN" },
+        { "Name": "Guinea-Bissau", "Value": "GW" },
+        { "Name": "Guyana", "Value": "GY" },
+        { "Name": "Haiti", "Value": "HT" },
+        { "Name": "Heard Island and McDonald Islands", "Value": "HM" },
+        { "Name": "Honduras", "Value": "HN" },
+        { "Name": "Hong Kong SAR", "Value": "HK" },
+        { "Name": "Hungary", "Value": "HU" },
+        { "Name": "Iceland", "Value": "IS" },
+        { "Name": "India", "Value": "IN" },
+        { "Name": "Indonesia", "Value": "ID" },
+        { "Name": "Iran", "Value": "IR" },
+        { "Name": "Iraq", "Value": "IQ" },
+        { "Name": "Ireland", "Value": "IE" },
+        { "Name": "Isle of Man", "Value": "IM" },
+        { "Name": "Israel", "Value": "IL" },
+        { "Name": "Italy", "Value": "IT" },
+        { "Name": "Jamaica", "Value": "JM" },
+        { "Name": "Japan", "Value": "JP" },
+        { "Name": "Jersey", "Value": "JE" },
+        { "Name": "Jordan", "Value": "JO" },
+        { "Name": "Kazakhstan", "Value": "KZ" },
+        { "Name": "Kenya", "Value": "KE" },
+        { "Name": "Kiribati", "Value": "KI" },
+        { "Name": "Korea", "Value": "KR" },
+        { "Name": "Kosovo", "Value": "XK" },
+        { "Name": "Kuwait", "Value": "KW" },
+        { "Name": "Kyrgyzstan", "Value": "KG" },
+        { "Name": "Laos", "Value": "LA" },
+        { "Name": "Latvia", "Value": "LV" },
+        { "Name": "Lebanon", "Value": "LB" },
+        { "Name": "Lesotho", "Value": "LS" },
+        { "Name": "Liberia", "Value": "LR" },
+        { "Name": "Libya", "Value": "LY" },
+        { "Name": "Liechtenstein", "Value": "LI" },
+        { "Name": "Lithuania", "Value": "LT" },
+        { "Name": "Luxembourg", "Value": "LU" },
+        { "Name": "Macao SAR", "Value": "MO" },
+        { "Name": "Madagascar", "Value": "MG" },
+        { "Name": "Malawi", "Value": "MW" },
+        { "Name": "Malaysia", "Value": "MY" },
+        { "Name": "Maldives", "Value": "MV" },
+        { "Name": "Mali", "Value": "ML" },
+        { "Name": "Malta", "Value": "MT" },
+        { "Name": "Marshall Islands", "Value": "MH" },
+        { "Name": "Martinique", "Value": "MQ" },
+        { "Name": "Mauritania", "Value": "MR" },
+        { "Name": "Mauritius", "Value": "MU" },
+        { "Name": "Mayotte", "Value": "YT" },
+        { "Name": "Mexico", "Value": "MX" },
+        { "Name": "Micronesia", "Value": "FM" },
+        { "Name": "Moldova", "Value": "MD" },
+        { "Name": "Monaco", "Value": "MC" },
+        { "Name": "Mongolia", "Value": "MN" },
+        { "Name": "Montenegro", "Value": "ME" },
+        { "Name": "Montserrat", "Value": "MS" },
+        { "Name": "Morocco", "Value": "MA" },
+        { "Name": "Mozambique", "Value": "MZ" },
+        { "Name": "Myanmar", "Value": "MM" },
+        { "Name": "Namibia", "Value": "NA" },
+        { "Name": "Nauru", "Value": "NR" },
+        { "Name": "Nepal", "Value": "NP" },
+        { "Name": "Netherlands", "Value": "NL" },
+        { "Name": "New Caledonia", "Value": "NC" },
+        { "Name": "New Zealand", "Value": "NZ" },
+        { "Name": "Nicaragua", "Value": "NI" },
+        { "Name": "Niger", "Value": "NE" },
+        { "Name": "Nigeria", "Value": "NG" },
+        { "Name": "Niue", "Value": "NU" },
+        { "Name": "Norfolk Island", "Value": "NF" },
+        { "Name": "North Korea", "Value": "KP" },
+        { "Name": "North Macedonia", "Value": "MK" },
+        { "Name": "Northern Mariana Islands", "Value": "MP" },
+        { "Name": "Norway", "Value": "NO" },
+        { "Name": "Oman", "Value": "OM" },
+        { "Name": "Pakistan", "Value": "PK" },
+        { "Name": "Palau", "Value": "PW" },
+        { "Name": "Palestinian Authority", "Value": "PS" },
+        { "Name": "Panama", "Value": "PA" },
+        { "Name": "Papua New Guinea", "Value": "PG" },
+        { "Name": "Paraguay", "Value": "PY" },
+        { "Name": "Peru", "Value": "PE" },
+        { "Name": "Philippines", "Value": "PH" },
+        { "Name": "Pitcairn Islands", "Value": "PN" },
+        { "Name": "Poland", "Value": "PL" },
+        { "Name": "Portugal", "Value": "PT" },
+        { "Name": "Puerto Rico", "Value": "PR" },
+        { "Name": "Qatar", "Value": "QA" },
+        { "Name": "Réunion", "Value": "RE" },
+        { "Name": "Romania", "Value": "RO" },
+        { "Name": "Russia", "Value": "RU" },
+        { "Name": "Rwanda", "Value": "RW" },
+        { "Name": "Saba", "Value": "BQ" },
+        { "Name": "Saint Barthélemy", "Value": "BL" },
+        { "Name": "Saint Kitts and Nevis", "Value": "KN" },
+        { "Name": "Saint Lucia", "Value": "LC" },
+        { "Name": "Saint Martin", "Value": "MF" },
+        { "Name": "Saint Pierre and Miquelon", "Value": "PM" },
+        { "Name": "Saint Vincent and the Grenadines", "Value": "VC" },
+        { "Name": "Samoa", "Value": "WS" },
+        { "Name": "San Marino", "Value": "SM" },
+        { "Name": "São Tomé and Príncipe", "Value": "ST" },
+        { "Name": "Saudi Arabia", "Value": "SA" },
+        { "Name": "Senegal", "Value": "SN" },
+        { "Name": "Serbia", "Value": "RS" },
+        { "Name": "Seychelles", "Value": "SC" },
+        { "Name": "Sierra Leone", "Value": "SL" },
+        { "Name": "Singapore", "Value": "SG" },
+        { "Name": "Sint Maarten", "Value": "SX" },
+        { "Name": "Slovakia", "Value": "SK" },
+        { "Name": "Slovenia", "Value": "SI" },
+        { "Name": "Solomon Islands", "Value": "SB" },
+        { "Name": "Somalia", "Value": "SO" },
+        { "Name": "South Africa", "Value": "ZA" },
+        {
+          "Name": "South Georgia and South Sandwich Islands",
+          "Value": "GS"
+        },
+        { "Name": "South Sudan", "Value": "SS" },
+        { "Name": "Spain", "Value": "ES" },
+        { "Name": "Sri Lanka", "Value": "LK" },
+        {
+          "Name": "St Helena, Ascension, Tristan da Cunha",
+          "Value": "SH"
+        },
+        { "Name": "Sudan", "Value": "SD" },
+        { "Name": "Suriname", "Value": "SR" },
+        { "Name": "Svalbard", "Value": "SJ" },
+        { "Name": "Sweden", "Value": "SE" },
+        { "Name": "Switzerland", "Value": "CH" },
+        { "Name": "Syria", "Value": "SY" },
+        { "Name": "Taiwan", "Value": "TW" },
+        { "Name": "Tajikistan", "Value": "TJ" },
+        { "Name": "Tanzania", "Value": "TZ" },
+        { "Name": "Thailand", "Value": "TH" },
+        { "Name": "Timor-Leste", "Value": "TL" },
+        { "Name": "Togo", "Value": "TG" },
+        { "Name": "Tokelau", "Value": "TK" },
+        { "Name": "Tonga", "Value": "TO" },
+        { "Name": "Trinidad and Tobago", "Value": "TT" },
+        { "Name": "Tunisia", "Value": "TN" },
+        { "Name": "Turkey", "Value": "TR" },
+        { "Name": "Turkmenistan", "Value": "TM" },
+        { "Name": "Turks and Caicos Islands", "Value": "TC" },
+        { "Name": "Tuvalu", "Value": "TV" },
+        { "Name": "U.S. Outlying Islands", "Value": "UM" },
+        { "Name": "U.S. Virgin Islands", "Value": "VI" },
+        { "Name": "Uganda", "Value": "UG" },
+        { "Name": "Ukraine", "Value": "UA" },
+        { "Name": "United Arab Emirates", "Value": "AE" },
+        { "Name": "United Kingdom", "Value": "GB" },
+        { "Name": "United States", "Value": "US" },
+        { "Name": "Uruguay", "Value": "UY" },
+        { "Name": "Uzbekistan", "Value": "UZ" },
+        { "Name": "Vanuatu", "Value": "VU" },
+        { "Name": "Vatican City", "Value": "VA" },
+        { "Name": "Venezuela", "Value": "VE" },
+        { "Name": "Vietnam", "Value": "VN" },
+        { "Name": "Wallis and Futuna", "Value": "WF" },
+        { "Name": "Yemen", "Value": "YE" },
+        { "Name": "Zambia", "Value": "ZM" },
+        { "Name": "Zimbabwe", "Value": "ZW" }
+      ]
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "extension_TermsAndConditions",
+      "TargetCollection": "Restriction",
+      "Override": true,
+      "Items": [
+        { "Name": "I agree to the terms and conditions", "Value": "True" }
+      ]
+    }
+  ]
+}

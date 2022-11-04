@@ -1,0 +1,1011 @@
+{
+  "LocalizedStrings": [
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "UserId",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Användarnamn"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "UserId",
+      "StringId": "PatternHelpText",
+      "Override": false,
+      "Value": "Användarnamnet som du angav är inte giltigt. Det måste börja med en bokstav eller siffra och får endast innehålla alfanumeriska tecken och följande symboler: _ -"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "UserId",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Användarnamn som används för inloggning."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "country",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Land/region"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "country",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Ditt land/region."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "email",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "E-postadress"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "email",
+      "StringId": "PatternHelpText",
+      "Override": false,
+      "Value": "Ange en giltig e-postadress."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "email",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "E-postadress som kan användas för att kontakta dig."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "emailVerificationCode",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Verifieringskod"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "emailVerificationCode",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Den verifieringskod som togs emot i e-postmeddelandet."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "extension_TermsAndConditions",
+      "StringId": "DisplayName",
+      "Override": true,
+      "Value": "Terms And Conditions"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "extension_TermsAndConditions",
+      "StringId": "UserHelpText",
+      "Override": true,
+      "Value": ""
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "givenName",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Förnamn"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "givenName",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Ditt förnamn."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "newPassword",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Nytt lösenord"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "newPassword",
+      "StringId": "PatternHelpText",
+      "Override": false,
+      "Value": "8-16 tecken, som innehåller 3 av 4 följande saker: Gemener, versaler, siffror (0-9) och en eller flera av följande symboler: @ # $ % ^ & * - _ + = [ ] { } | \\ : ' , ? / ` ~ \" ( ) ; ."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "newPassword",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Ange nytt lösenord"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "reenterPassword",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Bekräfta nytt lösenord"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "reenterPassword",
+      "StringId": "PatternHelpText",
+      "Override": false,
+      "Value": "8-16 tecken, som innehåller 3 av 4 följande saker: Gemena bokstäver, versala tecken, siffror (0-9) och en eller flera av följande symboler: @ # $ % ^ & * - _ + = [ ] { } | \\ : ' , ? / ` ~ \" ( ) ; ."
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "reenterPassword",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Bekräfta nytt lösenord"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "surname",
+      "StringId": "DisplayName",
+      "Override": false,
+      "Value": "Efternamn"
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "surname",
+      "StringId": "UserHelpText",
+      "Override": false,
+      "Value": "Ditt efternamn."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "but_change_claims",
+      "Override": false,
+      "Value": "Ändra e-post"
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "but_send_code",
+      "Override": false,
+      "Value": "Skicka verifieringskod"
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "but_send_new_code",
+      "Override": false,
+      "Value": "Skicka en ny kod"
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "but_verify_code",
+      "Override": false,
+      "Value": "Verifiera koden"
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "failure_send_code_msg",
+      "Override": false,
+      "Value": "Vi har svårt att verifiera din e-postadress. Ange en giltig e-postadress och försök igen."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "failure_verify_code_msg",
+      "Override": false,
+      "Value": "Vi har problem med att verifiera din e-postadress. Försök igen."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "intro_msg",
+      "Override": false,
+      "Value": "Verifiering krävs. Klicka på Skicka-knappen."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "success_send_code_msg",
+      "Override": false,
+      "Value": "Verifieringskoden har skickats till din inkorg. Kopiera den till inmatningsrutan nedan."
+    },
+    {
+      "ElementType": "DisplayControl",
+      "ElementId": "emailVerificationControl",
+      "StringId": "success_verify_code_msg",
+      "Override": false,
+      "Value": "E-postadressen har verifierats. Du kan fortsätta nu."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "DefaultUserMessageIfRequestFailed",
+      "Override": false,
+      "Value": "Det uppstod ett problem när din begäran behandlades. Försök igen."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "ServiceThrottled",
+      "Override": false,
+      "Value": "Det finns för många förfrågningar för tillfället. Vänta en stund och försök sedan igen."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageForInvalidClaimValue",
+      "Override": false,
+      "Value": "Ett ogiltigt värde angavs för en egenskap"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfChallengeExpired",
+      "Override": false,
+      "Value": "Koden har upphört att gälla. Begär en ny kod."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfCircuitOpen",
+      "Override": false,
+      "Value": "Det uppstod ett problem när din begäran behandlades. Försök igen."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfClaimNotVerified",
+      "Override": false,
+      "Value": "Anspråk ej verifierat: {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfClaimsPrincipalAlreadyExists",
+      "Override": false,
+      "Value": "En användare med det angivna ID:t finns redan. Välj en annan."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfDnsResolutionFailed",
+      "Override": false,
+      "Value": "Det uppstod ett problem när din begäran behandlades. Försök igen."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfIncorrectPattern",
+      "Override": false,
+      "Value": "Fel mönster för {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfInternalError",
+      "Override": false,
+      "Value": "Vi har svårt att verifiera din e-postadress. Ange en giltig e-postadress och försök igen."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfInvalidInput",
+      "Override": false,
+      "Value": "{0} har ogiltiga indata."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfMissingRequiredElement",
+      "Override": false,
+      "Value": "Det nödvändiga elementet {0} saknas"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfRequestTimeout",
+      "Override": false,
+      "Value": "Det uppstod ett problem när din begäran behandlades. Försök igen."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfThrottled",
+      "Override": false,
+      "Value": "För många begäranden att verifiera den här e-postadressen har gjorts. Vänta en stund och försök igen."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfValidationError",
+      "Override": false,
+      "Value": "Fel i verifiering av {0}"
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfVerificationFailedNoRetry",
+      "Override": false,
+      "Value": "Du har gjort för många felaktiga försök. Försök igen senare."
+    },
+    {
+      "ElementType": "ErrorMessage",
+      "ElementId": null,
+      "StringId": "UserMessageIfVerificationFailedRetryAllowed",
+      "Override": false,
+      "Value": "Koden är felaktig. Försök igen."
+    },
+    {
+      "ElementType": "InputValidation",
+      "ElementId": "CustomPassword",
+      "StringId": "CharacterClasses",
+      "Override": false,
+      "Value": "Ditt lösenord måste innehålla minst {0} av följande:"
+    },
+    {
+      "ElementType": "InputValidation",
+      "ElementId": "CustomPassword",
+      "StringId": "CharacterClassesAll",
+      "Override": false,
+      "Value": "Ditt lösenord måste innehålla alla följande:"
+    },
+    {
+      "ElementType": "InputValidation",
+      "ElementId": "StrongPassword",
+      "StringId": "CharacterClasses",
+      "Override": false,
+      "Value": "Ditt lösenord måste innehålla minst {0} av följande:"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "AllowedAADCharacters",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Ett ogiltigt tecken angavs."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "DateRange",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Datumet måste ligga mellan {0} och {1}."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "DateRangeBetween1905AndToday",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Datumet måste ligga mellan 1905-01-01 och idag."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "DisallowedWhitespace",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Lösenordet får inte börja eller sluta med ett blankstegstecken."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "ExactLength",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Löseordet måste innehålla exakt {0} tecken."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "IsLengthBetween8And64",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Lösenordet måste vara mellan 8 och 64 tecken."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "LengthRange",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Lösenordet måste innehålla mellan {0} och {1} tecken."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "Lowercase",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "en gemen bokstav"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "Number",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "en siffra"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "PIN",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Lösenordet får bara innehålla siffror."
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "Symbol",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "en symbol"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "Uppercase",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "en versal bokstav"
+    },
+    {
+      "ElementType": "Predicate",
+      "ElementId": "internationalOrNationalPhoneNumber",
+      "StringId": "HelpText",
+      "Override": false,
+      "Value": "Det angivna värdet måste vara ett telefonnummer."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_message",
+      "Override": false,
+      "Value": "Är du säker på att du vill avbryta inmatningen av din information?"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_no",
+      "Override": false,
+      "Value": "Nej"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_title",
+      "Override": false,
+      "Value": "Avbryt inmatningen av din information"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "alert_yes",
+      "Override": false,
+      "Value": "Ja"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "button_cancel",
+      "Override": false,
+      "Value": "Avbryt"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "button_continue",
+      "Override": false,
+      "Value": "Skapa"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "cancel_message",
+      "Override": false,
+      "Value": "Användaren har avbrutit ange självuppgiven information"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "day",
+      "Override": false,
+      "Value": "Dag"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_link_1_text",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_link_1_url",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_link_2_text",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_link_2_url",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "disclaimer_msg_intro",
+      "Override": false,
+      "Value": ""
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_fieldIncorrect",
+      "Override": false,
+      "Value": "Ett eller flera fält är felaktigt ifyllda. Kontrollera din inmatning och försök igen."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_passwordEntryMismatch",
+      "Override": false,
+      "Value": "Fälten för lösenordsinmatning matchar inte. Ange samma lösenord i bägge fälten och försök igen."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "error_requiredFieldMissing",
+      "Override": false,
+      "Value": "Ett obligatoriskt fält saknas. Fyll i alla obligatoriska fält och försök igen."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "heading",
+      "Override": false,
+      "Value": "Registrera dig"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "helplink_text",
+      "Override": false,
+      "Value": "Vad är detta?"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "initial_intro",
+      "Override": false,
+      "Value": "Ange följande information."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "month",
+      "Override": false,
+      "Value": "Månad"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "months",
+      "Override": false,
+      "Value": "Januari, februari, mars, april, maj, juni, juli, augusti, september, oktober, november, december"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "preloader_alt",
+      "Override": false,
+      "Value": "Vänta"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "required_field",
+      "Override": false,
+      "Value": "Den här informationen är obligatorisk."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_default",
+      "Override": false,
+      "Value": "Standardinställning"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_edit",
+      "Override": false,
+      "Value": "Ändra e-post"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_resend",
+      "Override": false,
+      "Value": "Skicka ny kod"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_send",
+      "Override": false,
+      "Value": "Skicka verifieringskod"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_but_verify",
+      "Override": false,
+      "Value": "Verifiera kod"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_code_expired",
+      "Override": false,
+      "Value": "Koden har upphört att gälla. Begär en ny kod."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_no_retry",
+      "Override": false,
+      "Value": "Du har gjort för många felaktiga försök. Försök igen senare."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_retry",
+      "Override": false,
+      "Value": "Koden är felaktig. Försök igen."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_server",
+      "Override": false,
+      "Value": "Vi har svårt att verifiera din e-postadress. Ange en giltig e-postadress och försök igen."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_fail_throttled",
+      "Override": false,
+      "Value": "För många begäranden att verifiera den här e-postadressen har gjorts. Vänta en stund och försök igen."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_incorrect_format",
+      "Override": false,
+      "Value": "Felaktigt format."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_info_msg",
+      "Override": false,
+      "Value": "Verifieringskoden har skickats till din inkorg. Kopiera den till inmatningsrutan nedan."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_input",
+      "Override": false,
+      "Value": "Verifieringskod"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_intro_msg",
+      "Override": false,
+      "Value": "Verifiering krävs. Klicka på Skicka-knappen."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_sent",
+      "Override": false,
+      "Value": "Verifieringskoden har skickats till:"
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "ver_success_msg",
+      "Override": false,
+      "Value": "E-postadressen har verifierats. Du kan fortsätta."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "verifying_blurb",
+      "Override": false,
+      "Value": "Vänta medan vi bearbetar din information."
+    },
+    {
+      "ElementType": "UxElement",
+      "ElementId": null,
+      "StringId": "year",
+      "Override": false,
+      "Value": "År"
+    }
+  ],
+  "LocalizedCollections": [
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "country",
+      "TargetCollection": "Restriction",
+      "Override": true,
+      "Items": [
+        { "Name": "Afghanistan", "Value": "AF" },
+        { "Name": "Albanien", "Value": "AL" },
+        { "Name": "Algeriet", "Value": "DZ" },
+        { "Name": "Amerikanska Jungfruöarna", "Value": "VI" },
+        { "Name": "Amerikanska Samoa", "Value": "AS" },
+        { "Name": "Andorra", "Value": "AD" },
+        { "Name": "Angola", "Value": "AO" },
+        { "Name": "Anguilla", "Value": "AI" },
+        { "Name": "Antarktis", "Value": "AQ" },
+        { "Name": "Antigua och Barbuda", "Value": "AG" },
+        { "Name": "Argentina", "Value": "AR" },
+        { "Name": "Armenien", "Value": "AM" },
+        { "Name": "Aruba", "Value": "AW" },
+        { "Name": "Australien", "Value": "AU" },
+        { "Name": "Azerbajdzjan", "Value": "AZ" },
+        { "Name": "Bahamas", "Value": "BS" },
+        { "Name": "Bahrain", "Value": "BH" },
+        { "Name": "Bangladesh", "Value": "BD" },
+        { "Name": "Barbados", "Value": "BB" },
+        { "Name": "Belgien", "Value": "BE" },
+        { "Name": "Belize", "Value": "BZ" },
+        { "Name": "Benin", "Value": "BJ" },
+        { "Name": "Bermuda", "Value": "BM" },
+        { "Name": "Bhutan", "Value": "BT" },
+        { "Name": "Bolivia", "Value": "BO" },
+        { "Name": "Bonaire", "Value": "BQ" },
+        { "Name": "Bosnien och Hercegovina", "Value": "BA" },
+        { "Name": "Botswana", "Value": "BW" },
+        { "Name": "Bouvetön", "Value": "BV" },
+        { "Name": "Brasilien", "Value": "BR" },
+        { "Name": "Brittiska Jungfruöarna", "Value": "VG" },
+        { "Name": "Brittiska territoriet i Indiska oceanen", "Value": "IO" },
+        { "Name": "Brunei", "Value": "BN" },
+        { "Name": "Bulgarien", "Value": "BG" },
+        { "Name": "Burkina Faso", "Value": "BF" },
+        { "Name": "Burundi", "Value": "BI" },
+        { "Name": "Cabo Verde", "Value": "CV" },
+        { "Name": "Caymanöarna", "Value": "KY" },
+        { "Name": "Centralafrikanska republiken", "Value": "CF" },
+        { "Name": "Chile", "Value": "CL" },
+        { "Name": "Colombia", "Value": "CO" },
+        { "Name": "Cooköarna", "Value": "CK" },
+        { "Name": "Costa Rica", "Value": "CR" },
+        { "Name": "Curaçao", "Value": "CW" },
+        { "Name": "Cypern", "Value": "CY" },
+        { "Name": "Danmark", "Value": "DK" },
+        { "Name": "Djibouti", "Value": "DJ" },
+        { "Name": "Dominica", "Value": "DM" },
+        { "Name": "Dominikanska republiken", "Value": "DO" },
+        { "Name": "DR Kongo", "Value": "CD" },
+        { "Name": "Ecuador", "Value": "EC" },
+        { "Name": "Egypten", "Value": "EG" },
+        { "Name": "Ekvatorialguinea", "Value": "GQ" },
+        { "Name": "El Salvador", "Value": "SV" },
+        { "Name": "Elfenbenskusten (Côte d’Ivoire)", "Value": "CI" },
+        { "Name": "Eritrea", "Value": "ER" },
+        { "Name": "Estland", "Value": "EE" },
+        { "Name": "Eswatini", "Value": "SZ" },
+        { "Name": "Etiopien", "Value": "ET" },
+        { "Name": "Falklandsöarna", "Value": "FK" },
+        { "Name": "Fiji", "Value": "FJ" },
+        { "Name": "Filippinerna", "Value": "PH" },
+        { "Name": "Finland", "Value": "FI" },
+        { "Name": "Frankrike", "Value": "FR" },
+        { "Name": "Franska Guyana", "Value": "GF" },
+        { "Name": "Franska Polynesien", "Value": "PF" },
+        { "Name": "Franska sydterritorierna", "Value": "TF" },
+        { "Name": "Färöarna", "Value": "FO" },
+        { "Name": "Förenade Arabemiraten", "Value": "AE" },
+        { "Name": "Gabon", "Value": "GA" },
+        { "Name": "Gambia", "Value": "GM" },
+        { "Name": "Georgien", "Value": "GE" },
+        { "Name": "Ghana", "Value": "GH" },
+        { "Name": "Gibraltar", "Value": "GI" },
+        { "Name": "Grekland", "Value": "GR" },
+        { "Name": "Grenada", "Value": "GD" },
+        { "Name": "Grönland", "Value": "GL" },
+        { "Name": "Guadeloupe", "Value": "GP" },
+        { "Name": "Guam", "Value": "GU" },
+        { "Name": "Guatemala", "Value": "GT" },
+        { "Name": "Guernsey", "Value": "GG" },
+        { "Name": "Guinea", "Value": "GN" },
+        { "Name": "Guinea-Bissau", "Value": "GW" },
+        { "Name": "Guyana", "Value": "GY" },
+        { "Name": "Haiti", "Value": "HT" },
+        { "Name": "Heardön och McDonaldöarna", "Value": "HM" },
+        { "Name": "Honduras", "Value": "HN" },
+        { "Name": "Hongkong SAR", "Value": "HK" },
+        { "Name": "Indien", "Value": "IN" },
+        { "Name": "Indonesien", "Value": "ID" },
+        { "Name": "Irak", "Value": "IQ" },
+        { "Name": "Iran", "Value": "IR" },
+        { "Name": "Irland", "Value": "IE" },
+        { "Name": "Island", "Value": "IS" },
+        { "Name": "Isle of Man", "Value": "IM" },
+        { "Name": "Israel", "Value": "IL" },
+        { "Name": "Italien", "Value": "IT" },
+        { "Name": "Jamaica", "Value": "JM" },
+        { "Name": "Japan", "Value": "JP" },
+        { "Name": "Jemen", "Value": "YE" },
+        { "Name": "Jersey", "Value": "JE" },
+        { "Name": "Jordanien", "Value": "JO" },
+        { "Name": "Julön", "Value": "CX" },
+        { "Name": "Kambodja", "Value": "KH" },
+        { "Name": "Kamerun", "Value": "CM" },
+        { "Name": "Kanada", "Value": "CA" },
+        { "Name": "Kazakstan", "Value": "KZ" },
+        { "Name": "Kenya", "Value": "KE" },
+        { "Name": "Kina", "Value": "CN" },
+        { "Name": "Kirgizistan", "Value": "KG" },
+        { "Name": "Kiribati", "Value": "KI" },
+        { "Name": "Kokosöarna", "Value": "CC" },
+        { "Name": "Komorerna", "Value": "KM" },
+        { "Name": "Kongo", "Value": "CG" },
+        { "Name": "Kosovo", "Value": "XK" },
+        { "Name": "Kroatien", "Value": "HR" },
+        { "Name": "Kuba", "Value": "CU" },
+        { "Name": "Kuwait", "Value": "KW" },
+        { "Name": "Laos", "Value": "LA" },
+        { "Name": "Lesotho", "Value": "LS" },
+        { "Name": "Lettland", "Value": "LV" },
+        { "Name": "Libanon", "Value": "LB" },
+        { "Name": "Liberia", "Value": "LR" },
+        { "Name": "Libyen", "Value": "LY" },
+        { "Name": "Liechtenstein", "Value": "LI" },
+        { "Name": "Litauen", "Value": "LT" },
+        { "Name": "Luxemburg", "Value": "LU" },
+        { "Name": "Macao SAR", "Value": "MO" },
+        { "Name": "Madagaskar", "Value": "MG" },
+        { "Name": "Malawi", "Value": "MW" },
+        { "Name": "Malaysia", "Value": "MY" },
+        { "Name": "Maldiverna", "Value": "MV" },
+        { "Name": "Mali", "Value": "ML" },
+        { "Name": "Malta", "Value": "MT" },
+        { "Name": "Marocko", "Value": "MA" },
+        { "Name": "Marshallöarna", "Value": "MH" },
+        { "Name": "Martinique", "Value": "MQ" },
+        { "Name": "Mauretanien", "Value": "MR" },
+        { "Name": "Mauritius", "Value": "MU" },
+        { "Name": "Mayotte", "Value": "YT" },
+        { "Name": "Mexiko", "Value": "MX" },
+        { "Name": "Mikronesien", "Value": "FM" },
+        { "Name": "Moçambique", "Value": "MZ" },
+        { "Name": "Moldavien", "Value": "MD" },
+        { "Name": "Monaco", "Value": "MC" },
+        { "Name": "Mongoliet", "Value": "MN" },
+        { "Name": "Montenegro", "Value": "ME" },
+        { "Name": "Montserrat", "Value": "MS" },
+        { "Name": "Myanmar", "Value": "MM" },
+        { "Name": "Namibia", "Value": "NA" },
+        { "Name": "Nauru", "Value": "NR" },
+        { "Name": "Nederländerna", "Value": "NL" },
+        { "Name": "Nepal", "Value": "NP" },
+        { "Name": "Nicaragua", "Value": "NI" },
+        { "Name": "Niger", "Value": "NE" },
+        { "Name": "Nigeria", "Value": "NG" },
+        { "Name": "Niue", "Value": "NU" },
+        { "Name": "Nordkorea", "Value": "KP" },
+        { "Name": "Nordmakedonien", "Value": "MK" },
+        { "Name": "Nordmarianerna", "Value": "MP" },
+        { "Name": "Norfolkön", "Value": "NF" },
+        { "Name": "Norge", "Value": "NO" },
+        { "Name": "Nya Kaledonien", "Value": "NC" },
+        { "Name": "Nya Zeeland", "Value": "NZ" },
+        { "Name": "Oman", "Value": "OM" },
+        { "Name": "Pakistan", "Value": "PK" },
+        { "Name": "Palau", "Value": "PW" },
+        { "Name": "Palestinska myndigheten", "Value": "PS" },
+        { "Name": "Panama", "Value": "PA" },
+        { "Name": "Papua Nya Guinea", "Value": "PG" },
+        { "Name": "Paraguay", "Value": "PY" },
+        { "Name": "Peru", "Value": "PE" },
+        { "Name": "Pitcairnöarna", "Value": "PN" },
+        { "Name": "Polen", "Value": "PL" },
+        { "Name": "Portugal", "Value": "PT" },
+        { "Name": "Puerto Rico", "Value": "PR" },
+        { "Name": "Qatar", "Value": "QA" },
+        { "Name": "Réunion", "Value": "RE" },
+        { "Name": "Rumänien", "Value": "RO" },
+        { "Name": "Rwanda", "Value": "RW" },
+        { "Name": "Ryssland", "Value": "RU" },
+        { "Name": "S:t Helena, Ascension, Tristan da Cunha", "Value": "SH" },
+        { "Name": "Saba", "Value": "BQ" },
+        { "Name": "Saint Kitts och Nevis", "Value": "KN" },
+        { "Name": "Saint Lucia", "Value": "LC" },
+        { "Name": "Saint Pierre och Miquelon", "Value": "PM" },
+        { "Name": "Saint Vincent och Grenadinerna", "Value": "VC" },
+        { "Name": "Saint-Barthélemy", "Value": "BL" },
+        { "Name": "Saint-Martin", "Value": "MF" },
+        { "Name": "Salomonöarna", "Value": "SB" },
+        { "Name": "Samoa", "Value": "WS" },
+        { "Name": "San Marino", "Value": "SM" },
+        { "Name": "São Tomé och Príncipe", "Value": "ST" },
+        { "Name": "Saudiarabien", "Value": "SA" },
+        { "Name": "Schweiz", "Value": "CH" },
+        { "Name": "Senegal", "Value": "SN" },
+        { "Name": "Serbien", "Value": "RS" },
+        { "Name": "Seychellerna", "Value": "SC" },
+        { "Name": "Sierra Leone", "Value": "SL" },
+        { "Name": "Singapore", "Value": "SG" },
+        { "Name": "Sint Maarten", "Value": "SX" },
+        { "Name": "Slovakien", "Value": "SK" },
+        { "Name": "Slovenien", "Value": "SI" },
+        { "Name": "Somalia", "Value": "SO" },
+        { "Name": "Spanien", "Value": "ES" },
+        { "Name": "Sri Lanka", "Value": "LK" },
+        { "Name": "Storbritannien", "Value": "GB" },
+        { "Name": "Sudan", "Value": "SD" },
+        { "Name": "Surinam", "Value": "SR" },
+        { "Name": "Svalbard", "Value": "SJ" },
+        { "Name": "Sverige", "Value": "SE" },
+        { "Name": "Sydafrika", "Value": "ZA" },
+        { "Name": "Sydgeorgien och Sydsandwichöarna", "Value": "GS" },
+        { "Name": "Sydkorea", "Value": "KR" },
+        { "Name": "Sydsudan", "Value": "SS" },
+        { "Name": "Syrien", "Value": "SY" },
+        { "Name": "Tadzjikistan", "Value": "TJ" },
+        { "Name": "Taiwan", "Value": "TW" },
+        { "Name": "Tanzania", "Value": "TZ" },
+        { "Name": "Tchad", "Value": "TD" },
+        { "Name": "Thailand", "Value": "TH" },
+        { "Name": "Timor-Leste", "Value": "TL" },
+        { "Name": "Tjeckien", "Value": "CZ" },
+        { "Name": "Togo", "Value": "TG" },
+        { "Name": "Tokelau", "Value": "TK" },
+        { "Name": "Tonga", "Value": "TO" },
+        { "Name": "Trinidad och Tobago", "Value": "TT" },
+        { "Name": "Tunisien", "Value": "TN" },
+        { "Name": "Turkiet", "Value": "TR" },
+        { "Name": "Turkmenistan", "Value": "TM" },
+        { "Name": "Turks- och Caicosöarna", "Value": "TC" },
+        { "Name": "Tuvalu", "Value": "TV" },
+        { "Name": "Tyskland", "Value": "DE" },
+        { "Name": "Uganda", "Value": "UG" },
+        { "Name": "Ukraina", "Value": "UA" },
+        { "Name": "Ungern", "Value": "HU" },
+        { "Name": "Uruguay", "Value": "UY" },
+        { "Name": "USA", "Value": "US" },
+        { "Name": "USA:s yttre öar", "Value": "UM" },
+        { "Name": "Uzbekistan", "Value": "UZ" },
+        { "Name": "Vanuatu", "Value": "VU" },
+        { "Name": "Vatikanstaten", "Value": "VA" },
+        { "Name": "Venezuela", "Value": "VE" },
+        { "Name": "Vietnam", "Value": "VN" },
+        { "Name": "Vitryssland", "Value": "BY" },
+        { "Name": "Wallis- och Futunaöarna", "Value": "WF" },
+        { "Name": "Zambia", "Value": "ZM" },
+        { "Name": "Zimbabwe", "Value": "ZW" },
+        { "Name": "Åland", "Value": "AX" },
+        { "Name": "Österrike", "Value": "AT" }
+      ]
+    },
+    {
+      "ElementType": "ClaimType",
+      "ElementId": "extension_TermsAndConditions",
+      "TargetCollection": "Restriction",
+      "Override": true,
+      "Items": [
+        {
+          "Name": "I agree to the terms and conditions",
+          "Value": "True"
+        }
+      ]
+    }
+  ]
+}
